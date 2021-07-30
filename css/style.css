@@ -1,0 +1,201 @@
+/*Imagem e cor de fundo*/
+body{
+	background-color:#006266;	
+	padding:0;
+	margin:0;
+	font-family:Arial,Times,Calibri;
+}
+
+#fundo{
+	position:absolute;
+	background-image:url("../imagens/2.png");
+	background-position:center;
+	width:100%;
+	height:100%;
+}
+/*Header!!!!*/
+/*Barra com botão menu e aba de pesquisa*/
+#cabecalho{
+	background-color:#007F84;
+	margin:0;
+	top:0;
+	left:0;
+	right:0;
+	
+}
+/*Botões do cabeçalho*/
+
+
+#btnMenu{
+	background-color: transparent;
+	background-image:url("../imagens/4.png");
+	margin:15px 10px 10px 15px;
+	height:40px;
+	width:40px;
+	border:none;
+	
+} 
+
+#txtBusca{
+	margin-top: 0;
+	background-color: black;
+	position: absolute;
+}
+
+/*#btnBusca{
+	background-color: transparent;
+	background-image:url("../imagens/6.png");
+	height:40px;
+	width:40px;
+	border:none;
+	margin-right:10px;
+
+}*/
+
+#btnLogo{
+	background-color:rgba(255, 255, 255, 0.6);
+	border-radius: 5px;
+	margin:15px 10px 10px 20px;
+	height:40px;
+	width:40px;
+	border:none;
+	float: left;
+}
+
+#btnUsuario{
+	background-color: transparent;
+	background-image:url("../imagens/5.png");
+	margin:15px 20px 10px 20px;
+    height:40px;
+    width:40px;
+	border:none;
+    float: right;
+}
+
+/*Barra de pesquisa*/
+
+#campoPesquisa{
+	position:auto;
+	margin:15px 15px 25px 25px;
+	height:40px;
+	border-radius:15px;
+    padding-left:5px;
+	font-size:17px;
+    border:none;
+    width:200px;
+}
+/*Barra de opições*/
+#sidebar{
+	position:absolute;
+	padding-top:15px;
+	visibility:hidden;
+	background-color:#00C2CB;
+	max-height:720px;
+	height:100%;
+	width:300px;
+	padding-bottom:30.5%;
+	margin-top:0;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+.lista{
+	display:block;
+    margin:0 auto 50px 5px;
+    font-size:35px;	
+	
+}
+
+/*Div Da tela categorias*/
+#categori{
+	height:500px;
+	width:450px;
+}
+
+/*Tela DE CADASTRO*/
+#cadastro{
+	width:700px;
+	height:500px;
+}
+
+/*Tela de login*/
+form{
+	font-size:20px;
+	transform: translate(-50%,0);
+	padding:20px 50px;
+	top:45%;
+	left:50%;
+	max-width:1000px;
+	width:55%;
+	margin-top:0;
+	position:absolute;
+	background-color:#007F84;
+	
+}
+
+.fCliente{
+	border:none;
+	border-radius:10px;
+	font-size:25px;
+	font-style:bold;
+	float:right;
+	height:25px;
+	width:400px;
+}
+
+/*Tela Categorias*/
+#categorias{
+	text-align:center;
+	font-size:20px;
+	transform: translate(-50%,0);
+	padding:20px 50px;
+	top:20%;
+	left:50%;
+	max-width:1000px;
+	width:50%;
+	margin-top:0;
+	position:absolute;
+	background-color:#007F84;
+}
+
+.btnImg{
+	margin-left:80px;
+	border:3px solid black;
+	background-color:#007F84;
+	height:200px;
+	width:100px;
+}
+/*fale conosco*/
+#faleConosco{
+	font-size:20px;
+	transform: translate(-50%,0);
+	padding:20px 50px;
+	top:20%;
+	left:50%;
+	max-width:1000px;
+	width:55%;
+	height: 700px;
+	margin-top:0;
+	position:absolute;
+	background-color:#007F84;
+}
+.fConosco{
+	border:none;
+	border-radius:10px;
+	font-size:25px;
+	font-style:bold;
+	float:right;
+	height:25px;
+	width:250px;
+}
+#falarCon{
+	border: none;
+	border-radius: 5px;
+	width: 65px;
+	height: 25px;
+}
+
+#textEx{
+	font-size: 28px;
+}
